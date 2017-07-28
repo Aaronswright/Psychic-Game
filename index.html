@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Psychic-Game</title>
+	<link href="reset.css" type="text/css"/>
+	<link href="style.css"	type="text/css" rel="stylesheet"/>
+	<link rel="javascript">
+</head>
+	<script language="javascript" type="text/javascript"></script>
+
+<body>
+
+
+		<h1><strong>Psychic-Game</strong></h1>
+		<h2>Guess what letter I'm thinking of</h2>
+		<h3>Wins:""</h3>
+		<h3>Loses:""</h3>
+		<h3>Guesses Left:""</h3>
+		<h3>Your Guess so far:""</h3>
+
+	<script>
+
+//I tried my best not to copy and paste code that was online. I need to perfect how to lay the code out and what they do. I will continue to work on this over the weekend.
+
+//creating the var for each letter 
+	$(document).ready(Function() {
+
+
+		var letter = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "_"];
+//attempting to creat var for task such as generating random number, the guess count.
+		var randomLetter = "getRandomLetter";
+		var guess = 0;
+		var guessCount = 0;
+
+//what I was looking to do was create a click funtion that would load the next question for a random number
+
+		$("#random-button").on("click", function() {
+			alert()
+//The next set was to set up the random math to return the letter
+		Function getRandomLetter() 
+			var letter = math.floor(math.random()*RL + 1;
+			return letter;
+		}
+
+//The next line of code was my attempt to get the output of the generated code and create a for and while loop
+      Var output =""
+
+      for(var i = 0; i < 9; i++) {
+        output += (Math.floor(Math.random()) +1)
+
+		{
+
+		while(true) {
+			guess = prompt ("I am thinking of a letter, what is it?");
+			guessCount += 1;
+
+			if (guess === randomLetter)
+
+			correctGuess = true;
+			break; }
+		}
+//This was my attempt at having the answer populate for the user to see.
+		document.write("you guessed the letter" + guessCount + lets play again! + randomLetter );
+
+
+
+	</script>
+
+
+
+
+</body>
+</html>
